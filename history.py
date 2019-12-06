@@ -9,7 +9,7 @@ from datetime import datetime as dt
 
 DTFORMAT = "%m/%d/%Y, %H:%M:%S"
 
-db = TinyDB('db.json')
+db = TinyDB('./data/db.json')
 
 query = """
 {
